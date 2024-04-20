@@ -1,6 +1,6 @@
 [package]
 name = "game_die"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["PrintPractical"]
 edition = "2021"
 description = "A simple crate which allows users to create a N-sided die (with/without a user supplied RNG) and roll it!"
@@ -15,3 +15,6 @@ history = []
 
 [dependencies]
 rand = "0.8.5"
+
+[package.metadata.docs.rs]
+all-features = true

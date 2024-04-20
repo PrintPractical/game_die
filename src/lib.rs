@@ -1,4 +1,11 @@
+/*!
+# Features
+* **history** -
+  Enables the ability to retrieve the history of rolls for the Die. This may be useful for statistics, etc. This is **NOT** enabled by default.
+*/
 use rand::Rng;
+
+
 /// Die Object
 /// 
 /// This object is created using the builder pattern. The user has the option of setting the number of sides and the RNG
@@ -27,6 +34,7 @@ impl Die {
     }
 
     #[cfg(feature = "history")]
+    /// Gets the roll history list (only if feature "history" is enabled)
     pub fn get_history(&self) -> Vec<u8> {
         self.history.clone()
     }
