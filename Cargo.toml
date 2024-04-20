@@ -1,0 +1,10 @@
+[package]
+name = "game_die"
+version = "0.0.1"
+edition = "2021"
+
+[features]
+history = []
+
+[dependencies]
+rand = "0.8.5"
