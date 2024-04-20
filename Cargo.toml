@@ -1,7 +1,14 @@
 [package]
 name = "game_die"
 version = "0.0.1"
+authors = ["PrintPractical"]
 edition = "2021"
+description = "A simple crate which allows users to create a N-sided die (with/without a user supplied RNG) and roll it!"
+keywords = ["die", "dice", "game"]
+categories = ["game"]
+license = "MIT"
+repository = "https://github.com/PrintPractical/game_die"
+homepage = "https://github.com/PrintPractical/game_die"
 
 [features]
 history = []
